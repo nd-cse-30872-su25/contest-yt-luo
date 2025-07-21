@@ -2,6 +2,7 @@
 import sys
 import itertools
 
+# calculate left and right expression and then bruteforce
 def calculateleft(ops):
     cur = 9
     l = [8, 7, 6]
